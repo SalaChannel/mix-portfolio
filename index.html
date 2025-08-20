@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sala｜MIX Portfolio</title>
+  <meta name="description" content="歌ってみた・Vsinger/Vtuber向けボーカルMIX。編集・ハモリ生成・マスタリング、リテイク無制限。納期5〜21日（特急1〜4日）。" />
+  <style>
+    :root{
+      --bg:#0b1020; --card:#121a33; --ink:#e7ecff; --muted:#a8b2d9; --accent:#7aa2ff; --pill:#1e2a55; --ok:#79ffa8;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#0b1020, #0f1630 40%, #0b1020);color:var(--ink);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
+    a{color:var(--accent);text-decoration:none}
+    .wrap{max-width:1040px;margin:auto;padding:28px 20px 64px}
+    header{display:grid;gap:18px;grid-template-columns:1fr;align-items:center;margin-bottom:20px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:40px;height:40px;border-radius:12px;background:conic-gradient(from 210deg, #7aa2ff, #9efcff, #79ffa8);filter:saturate(1.2)}
+    h1{margin:0;font-size:28px;letter-spacing:.4px}
+    .hero{background:linear-gradient(180deg,rgba(122,162,255,.08),transparent 60%);border:1px solid rgba(255,255,255,.06);border-radius:20px;padding:28px}
+    .kvs{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 20px}
+    .pill{background:var(--pill);color:#cfe0ff;border:1px solid rgba(255,255,255,.08);padding:10px 14px;border-radius:999px;font-weight:600;font-size:14px}
+    .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:linear-gradient(180deg,#1a2450,#141b3b);color:#fff;font-weight:700}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.alt{background:transparent}
+
+    section{margin-top:40px}
+    h2{font-size:22px;margin:0 0 16px}
+    .cards{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .card{grid-column:span 12;background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:18px;padding:18px}
+    @media(min-width:720px){.card{grid-column:span 6}}
+    @media(min-width:1000px){.card{grid-column:span 4}}
+    .card h3{margin:0 0 8px;font-size:18px}
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 0}
+    .tag{padding:6px 10px;border-radius:999px;background:#18224a;color:#d6e1ff;border:1px solid rgba(255,255,255,.06);font-size:12px}
+
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .col-6{grid-column:span 12}
+    @media(min-width:900px){.col-6{grid-column:span 6}}
+    .panel{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:18px;padding:18px}
+    ul{margin:10px 0 0 18px}
+    li{margin:6px 0}
+
+    .samples{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .sample{grid-column:span 12;background:#0f1836;border:1px solid rgba(255,255,255,.06);border-radius:14px;overflow:hidden}
+    @media(min-width:720px){.sample{grid-column:span 6}}
+    .sample iframe{width:100%;aspect-ratio:16/9;border:0}
+    .foot{margin-top:44px;color:var(--muted);font-size:14px;text-align:center}
+    .ok{color:var(--ok);font-weight:700}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Roboto Mono", monospace}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>Sala ｜ MIX Portfolio</h1>
+          <div class="mono" style="color:var(--muted)">Vsinger / VTuber 向けボーカルMIX</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <p style="margin:0 0 8px">歌ってみたの仕上げ、<b>ボーカル編集・ハモリ生成・マスタリング</b>までワンストップ。</p>
+      <div class="kvs">
+        <span class="pill">リテイク無制限</span>
+        <span class="pill">納期 5〜21日</span>
+        <span class="pill">特急 1〜4日（合計×1.5〜）</span>
+      </div>
+      <div class="cta">
+        <a class="btn" href="https://x.com/nico_sala_" target="_blank" rel="noopener">XでDMする</a>
+        <a class="btn alt" href="https://www.youtube.com/@SalaChannel/videos" target="_blank" rel="noopener">代表作を見る（YouTube）</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>料金（抜粋）</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>ベーシックMIX（フルコーラス）</h3>
+          <div class="mono" style="font-size:20px">¥7,000〜</div>
+          <div class="meta"><span class="tag">編集込み</span><span class="tag">ハモリ生成</span><span class="tag">マスタリング</span></div>
+        </div>
+        <div class="card">
+          <h3>ハーフMIX（1コーラス）</h3>
+          <div class="mono" style="font-size:20px">¥3,500〜</div>
+          <div class="meta"><span class="tag">2分目安</span><span class="tag">編集込み</span></div>
+        </div>
+        <div class="card">
+          <h3>ショートMIX（〜1分）</h3>
+          <div class="mono" style="font-size:20px">¥2,000〜</div>
+          <div class="meta"><span class="tag">Shorts/TikTok</span></div>
+        </div>
+      </div>
+      <p style="color:var(--muted);margin:10px 0 0">※ コラボ（1人あたり）：2人まで +¥2,000／3人以上 +¥3,000。割引（ベーシックのみ）：フォロワー -¥500、リピート -¥500、誕生月 -¥1,000。</p>
+    </section>
+
+    <section class="grid">
+      <div class="col-6">
+        <div class="panel">
+          <h2>対応範囲</h2>
+          <ul>
+            <li>ピッチ・タイミング補正、ノイズ最適化</li>
+            <li>ハモリ生成／コーラス編集、空間処理</li>
+            <li>2MIXバランス調整、最終マスタリング</li>
+            <li>合唱/コラボMIX（人数に応じて加算）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="panel">
+          <h2>依頼の流れ</h2>
+          <ul>
+            <li>① 参考音源＆要望共有（DM/フォーム）</li>
+            <li>② デモ提出（1コーラス）→方向性合わせ</li>
+            <li>③ 本制作→初稿納品（5〜21日／特急1〜4日）</li>
+            <li>④ リテイク無制限→WAV納品（44.1/48kHz 24bit）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>サンプル（代表作）</h2>
+      <div class="panel" style="margin-bottom:16px;background:#0f1836;border:1px solid rgba(255,255,255,.06);border-radius:14px;">
+        <h3 style="margin:12px 16px">プレイリスト（まとめて再生）</h3>
+        <div class="sample"><iframe title="Portfolio Playlist" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLa0KeuSJlBks1t0QzcCx7vem7xlY6nHAf" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <p style="color:var(--muted);margin:8px 16px 0">※ YouTubeプレイリストを更新すると、この埋め込みも自動で反映されます。</p>
+      </div>
+      <div class="samples">
+        <div class="sample"><iframe title="YouTube #1" src="https://www.youtube-nocookie.com/embed/TCfUQKpCS5c" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #2" src="https://www.youtube-nocookie.com/embed/bIVJnWYBCc0" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #3" src="https://www.youtube-nocookie.com/embed/wU7H3cvMM1A" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #4" src="https://www.youtube-nocookie.com/embed/qg_yAPrxnZ4" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #5" src="https://www.youtube-nocookie.com/embed/-g9_7fvFlYs" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #6" src="https://www.youtube-nocookie.com/embed/kb_NuI6k_v4" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #7" src="https://www.youtube-nocookie.com/embed/TA7ijXTr4pY" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #8" src="https://www.youtube-nocookie.com/embed/MikWNHTYhek" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #9" src="https://www.youtube-nocookie.com/embed/sKnnEIy6u-8" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #10" src="https://www.youtube-nocookie.com/embed/Jaqm5h8NpsU" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #11" src="https://www.youtube-nocookie.com/embed/MqNmKnCNLyM" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #12" src="https://www.youtube-nocookie.com/embed/ACDC7eP_Yag" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #13" src="https://www.youtube-nocookie.com/embed/TFsOI3CCVpQ" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #14" src="https://www.youtube-nocookie.com/embed/lPFO13u1jsc" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #15" src="https://www.youtube-nocookie.com/embed/VMGtrXzjZnI" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #16" src="https://www.youtube-nocookie.com/embed/sm7nqm6MxAE" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="YouTube #17" src="https://www.youtube-nocookie.com/embed/fJedhmX_B98" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <div class="sample"><iframe title="NicoNico sm35051661" src="https://embed.nicovideo.jp/watch/sm35051661" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      </div>
+      <p style="color:var(--muted);margin-top:8px">※ YouTube は <span class="mono">watch?v=ID</span> の <span class="mono">ID</span> を使用。ニコニコは <span class="mono">sm35051661</span> のような動画IDで埋め込み可能です。</p>
+    </section>
+
+    <section>
+      <h2>お問い合わせ</h2>
+      <p>原則：銀行振込。イラスト/動画などの<strong>技術交換</strong>も対応可。まずはお気軽に <a href="https://x.com/nico_sala_" target="_blank" rel="noopener">DM</a> ください。</p>
+    </section>
+
+    <div class="foot">© <span id="y"></span> Sala — Mixing for Vsinger / VTuber. <span class="ok">受付中</span></div>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
